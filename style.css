@@ -1,0 +1,87 @@
+.tournament{width:100%;}
+
+.round{
+       float:left;    
+}
+
+
+.player{
+    font-family:arial;
+    width:180px;   
+    height:40px;
+    padding:0px;
+    background:#73789F;
+    color:white;
+    border:1px solid;
+}
+input{
+  width:120px;
+  height:35px;
+  font-size:18px;
+  color:white;
+  background:#73789F;
+  border: none;
+}
+#champion{
+  width:150px;  
+  outline: none;
+}
+input placeholder{
+  color:white;
+}
+/* .number{
+  width:38px;
+  font-size:18px;
+  border:1px;
+  outline:none;
+} */
+select{
+  height:40px;
+  width:50px;
+  font-size:16px;
+  color:white;
+  background:#73789F;
+}
+
+/* .player.winner{background:green;} */
+
+.match{
+    padding:5px 50px 5px 0px;
+}
+
+/*QUARTER-FINALS*/
+.quarter-finals .match{
+    height:100px;
+    background:right top no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkAQMAAAD+JvEYAAAAA3NCSVQICAjb4U/gAAAABlBMVEUAAAD///+l2Z/dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADEwLzEwLzEyGAKeIwAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAAnSURBVCiRY/gPBgcYhjoNBPZQ/v4hQjeAHD0I3IGXRgpXqsbXEKEB2yGL0P7iVKIAAAAASUVORK5CYII=);
+}
+/* .quarter-finals .player{
+
+} */
+.quarter-finals .player:first-child{
+    margin-bottom:5px;
+}
+
+/*SEMI-FINALS*/
+.semi-finals .match{
+    padding-top:30px;
+    height:185px;
+    background:right top no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAC5AQMAAABQhv7pAAAAA3NCSVQICAjb4U/gAAAABlBMVEUAAAD///+l2Z/dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADEwLzEwLzEyGAKeIwAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAArSURBVDiNY/gPBgcYRumBpYHAHsrfP0oPKboBFHmDwB2jNAk0Un77PwxoAJbztvAUr3KAAAAAAElFTkSuQmCC);
+}
+
+.semi-finals .player:first-child{
+    margin-bottom:70px;
+}
+
+/*FINALS*/
+.finals .match{
+    padding-top:85px;
+    height:350px;
+    background:top right no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAFeAQMAAAD9sN5nAAAAA3NCSVQICAjb4U/gAAAABlBMVEUAAAD///+l2Z/dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADEwLzEwLzEyGAKeIwAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAA0SURBVEiJY/gPBgcYRulRepQmngYCeyh//yg9So/Sg45uAGXSQeCOUXqUHrI0Uj33fxjQAEJS8U50LMSKAAAAAElFTkSuQmCC);
+}
+
+.finals .player:first-child{
+    margin-bottom:180px;
+
+}
+/* CHAMP*/
+.champion{padding-top:200px;}
