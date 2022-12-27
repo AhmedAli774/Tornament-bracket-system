@@ -84,4 +84,91 @@ select{
 
 }
 /* CHAMP*/
-.champion{padding-top:200px;}
+.champion{
+  padding-top:200px;
+}
+
+/* Forwrod property */
+.select{
+    margin-left: 130px;
+    margin-bottom: 20px;
+    /* margin-top: -50px; */
+    position: fixed;
+}
+#final1{
+  /* border: 2px solid red; */
+  height: 36px;
+  position: absolute;
+  width: 120px;
+  /* top: 22px; */
+  font-size: 18px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+#final2{
+  /* border: 2px solid red; */
+  height: 36px;
+  position: absolute;
+  width: 120px;
+  /* top: 22px; */
+  font-size: 18px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+#final3{
+  /* border: 2px solid red; */
+  height: 36px;
+  position: absolute;
+  width: 120px;
+  /* top: 22px; */
+  font-size: 18px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+#final4{
+  /* border: 2px solid red; */
+  height: 36px;
+  position: absolute;
+  width: 120px;
+  /* top: 22px; */
+  font-size: 18px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+#final5{
+  /* border: 2px solid red; */
+  height: 36px;
+  position: absolute;
+  width: 120px;
+  /* top: 22px; */
+  font-size: 18px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+#final6{
+  /* border: 2px solid red; */
+  height: 36px;
+  position: absolute;
+  width: 120px;
+  /* top: 22px; */
+  font-size: 18px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+#final7{
+  /* border: 2px solid red; */
+  height: 36px;
+  position: absolute;
+  width: 120px;
+  /* top: 22px; */
+  font-size: 18px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}

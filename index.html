@@ -26,7 +26,7 @@
     <div class="round quarter-finals">
 
         <div class="match" >
-            <div class="player"><input type="text" placeholder="name" id="name">
+            <div class="player"><input type="text" placeholder="name" id="name" >
               <select id="select" onchange="table()"> 
                 <option value="0">0</option>
                 <option value="1">1</option>
@@ -46,119 +46,153 @@
         </div>
 
         <div class="match">
-            <div class="player winner"><input type="text" placeholder="name" class="winner">
-       <select> 
-                <option></option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-                
-              </div>
-            <div class="player"><input type="text" placeholder="name">
-       <select> 
-                <option></option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-                
-              </div>
-        </div>    
-
-        <div class="match">
-            <div class="player"><input type="text" placeholder="name">
-      <select> 
-                <option></option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-                
-              </div>
-            <div class="player winner"><input type="text" placeholder="name">
-       <select> 
-                <option></option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-                
-              </div>
-        </div>
-
-        <div class="match">
-            <div class="player"><input type="text" placeholder="name">
-       <select> 
-                <option></option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-                
-              </div>
-            <div class="player"><input type="text" placeholder="name">
-    <select> 
-                <option></option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-                
-              </div>
-        </div>    
-
-    </div>
-
-    <!-- Danialshamas -->
-    <div class="round semi-finals">
-
-        <div class="match">
-            <div class="player"><input type="text" placeholder="name" id="final1">
-    <select> 
+            <div class="player winner"><input type="text" placeholder="name" id="name3">
+              <select id="select3" onclick="table2()"> 
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
               </select>
                 
               </div>
-            <div class="player winner"><input type="text" placeholder="name">
-    <select> 
-                <option></option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
+              <div class="player winner"><input type="text" placeholder="name" id="name4">
+                <select id="select4" onclick="table2()"> 
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+                  
+                </div>
+        </div>    
+
+        <div class="match">
+          <div class="player winner"><input type="text" placeholder="name" id="name5">
+            <select id="select5" onclick="table3()"> 
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+              
+            </div>
+            <div class="player winner"><input type="text" placeholder="name" id="name6">
+              <select id="select6" onclick="table3()"> 
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+                
+              </div>
+      </div>  
+
+      <div class="match">
+        <div class="player winner"><input type="text" placeholder="name" id="name7">
+          <select id="select7" onclick="table4()"> 
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+            
+          </div>
+          <div class="player winner"><input type="text" placeholder="name" id="name8">
+            <select id="select8" onclick="table4()"> 
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+              
+            </div>
+    </div> 
+
+    </div>
+
+    <!-- Sami Final-->
+    <div class="round semi-finals">
+
+        <div class="match">
+            <div class="player winner"><p id="final1"></p>
+              <select class="select" id="select9" onclick="table5()"> 
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+                
+              </div>
+            <div class="player winner"><p id="final2" ></p>
+              <select class="select" id="select10" onclick="table5()"> 
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                
               </select>
                 
               </div>
         </div>
 
         <div class="match">
-            <div class="player"><input type="text" placeholder="name">
-    <select> 
-                <option></option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-                
-              </div>
-            <div class="player"><input type="text" placeholder="name">
-    <select> 
-                <option></option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-                
-              </div>
-        </div>    
+          <div class="player winner"><p id="final3"></p>
+            <select class="select" id="select11" onclick="table6()"> 
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+              
+            </div>
+          <div class="player winner"><p id="final4" ></p>
+            <select class="select" id="select12" onclick="table6()"> 
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              
+            </select>
+              
+            </div>
+      </div>
 
     </div>
-
+<!-- final Round -->
     <div class="round finals"> 
+      <div class="match">
+        <div class="player winner"><p id="final5"></p>
+          <select class="select" id="select13" onclick="table7()"> 
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+            
+          </div>
+        <div class="player winner"><p id="final6" ></p>
+          <select class="select" id="select14" onclick="table7()"> 
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            
+          </select>
+            
+          </div>
+    </div>
 
-        <div class="match">
+
+      <!-- <div class="match">
+        <div class="player"><p id="final5"></p>
+          <select class="select"> 
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            
+          </select>
+            
+          </div>
+        <div class="player"><p id="final6"></p>
+          <select class="select"> 
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            
+          </select>
+            
+          </div>
+    </div>  -->
+
+        <!-- <div class="match">
             <div class="player"><input type="text" placeholder="name">
     <select> 
                 <option></option>
@@ -177,14 +211,15 @@
                 <option>3</option>
               </select>
             </div>
-        </div>     
+        </div>      -->
 
-    </div>
+</div>
 
     <div class="round"> 
         <div class="champion"> 
             <div class="player">
-              <input type="text" id="champion" value="Champion"><i class='fas fa-trophy' style='font-size:22px;color:#fcdb03;'></i>
+              <!-- <input type="text" id="champion" value="Champion"><i class='fas fa-trophy' style='font-size:22px;color:#fcdb03;'></i> -->
+              <p id="final7" ><i class='fas fa-trophy' style='font-size:22px;color:#fcdb03;'></i></p>
             </div>
         </div>
     </div>
