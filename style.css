@@ -29,12 +29,6 @@ input{
 input placeholder{
   color:white;
 }
-/* .number{
-  width:38px;
-  font-size:18px;
-  border:1px;
-  outline:none;
-} */
 select{
   height:40px;
   width:50px;
