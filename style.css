@@ -48,9 +48,6 @@ select{
     height:100px;
     background:right top no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkAQMAAAD+JvEYAAAAA3NCSVQICAjb4U/gAAAABlBMVEUAAAD///+l2Z/dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADEwLzEwLzEyGAKeIwAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAAnSURBVCiRY/gPBgcYhjoNBPZQ/v4hQjeAHD0I3IGXRgpXqsbXEKEB2yGL0P7iVKIAAAAASUVORK5CYII=);
 }
-/* .quarter-finals .player{
-
-} */
 .quarter-finals .player:first-child{
     margin-bottom:5px;
 }
